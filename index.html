@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>Document</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: lightblue;
+
+        }
+        .parent {
+            width: 80%;
+            height: 100vh;
+            position: absolute;
+            bottom: 0%;
+            left: 10%;
+
+            background-color: lightblue;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .nav {
+            margin-top: 10vh;
+            width: 100%;
+            height: 60px;
+            background-color: #000;
+            border-radius: 20px 20px 0 0;
+        }
+
+        .nav-items {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+            height: 100%;
+            margin: 0 auto;
+            color: #fff;
+        }
+
+        .photo {
+            width: 100%;
+            height: 100vh;
+            background-color: #fff;
+        }
+
+        .intro {
+            text-align: center;
+        }
+
+        .row {
+            padding-left: 100px;
+        }
+
+        a:link {
+            color: black;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: pink;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #E4A11B;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: white;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+        .img2{
+            padding-bottom: 55px;
+            padding-left: 55px;
+        }
+
+        .title-wrapper{
+            position: relative;
+            width: 60%;
+            top: -200px;
+            left: 200px;
+            /* background-color: #fff; */
+            display: flex;
+            flex-direction: column;
+
+            /* opacity: 0.7; */
+        }
+
+        .title-heading , .title-para {
+            background-color: rgba(255, 255, 255, 0.4); 
+            /* opacity: 1; */
+
+        }
+
+        .footer-wrapper{
+            position: relative;
+            align-items: end;
+            padding-top: 130px;
+            padding-right: 70px;
+            width: 60%;
+            top: -200px;
+            left: 200px;
+            /* background-color: #fff; */
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="parent">
+        <div class="nav">
+            <ul class="nav-items" style="list-style-type:none; ">
+                <li><a class="text-light fs-5" href="./index.html">Bal_Adhikar</a></li>
+                <li><a class="text-warning" href="./index.html"><i class="fa-duotone fa-house-blank"></i>Home</a></li>
+                <li><a class="text-warning" href="./game2s.html">Game</a></li>
+                <li><a class="text-warning" href="./toddlers.html">Toddlers</a></li>
+                <li><a class="text-warning" href="./issues.html">Issues</a></li>
+            </ul>
+        </div>
+        <div class="photo">
+            <main>
+                
+                <img src="./pics/back to school.jpg" width="100%" alt="">
+
+                <div class="title-wrapper">
+                    <h1 class="title-heading">Baal Adhikar</h1>
+                    <p class="title-para fw-bold">Empowering Tomorrow's Advocates: Explore a World of Child Rights and Justice with Us!</p>
+                </div>
+
+
+                <div>
+                    <video style="background-color: #fff;" width="100%" height="500px" controls="controls">
+                        <source src="./videos/Stop Child Labour in India a Short Film by CHILDLINE INDIA 1098.mp4"
+                            type="video/mp4" />
+                </div>
+
+                <br><br>
+                <div class="row bg-black">
+                    <h1 class="text-light py-3 fs-1 bg-black intro">Introduction</h1>
+                    <div class="col col-6">
+                        <p class="lead text-light p-5"> <b> Welcome to Bal Adhikar, a dynamic and innovative gamified
+                                platform designed to
+                                empower and educate children in India about their rights and responsibilities.
+                                Our mission is to create a fun, interactive, and engaging space where children aged
+                                8 to 16 can learn, grow, and become advocates for themselves and others.</b></p>
+
+                    </div>
+                    <div class="col">
+                        <img class="img2" src="./pics/back to school.jpg" width="500px" alt="">
+                    </div>
+                </div>
+            </main>
+
+
+
+
+            <br>
+            <br>
+
+            <!-- footer  -->
+            <footer>
+                <img src="./pics/banner-about.jpg" width="100%" alt="">
+                <div class="footer-wrapper">
+                    <h1 class="footerno text-warning">1098</h1>
+                </div>
+                <p class="float-end"><a href="#">Back to top</a></p>
+                <p>© 2023 Bal Adhikar</p>
+            </footer>
+
+        </div>
+        <!-- </div> -->
+</body>
+
+</html>
